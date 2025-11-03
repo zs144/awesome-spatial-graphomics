@@ -62,15 +62,15 @@ Each task section may include architecture tags such as `GCN-like`, `GAT`, `GVAE
 
 ```mermaid
 flowchart LR
-    A[Load data & config] --> B[Preprocess]
-    B --> C{Initialize or Load Model?}
-    C -->|Initialize| D[🧠 Initialize new model]
-    D --> E[🎯 Train model]
-    C -->|Load pretrained| F[📦 Load pretrained model]
-    E --> G[Model inference]
+    A[Load data <br/>& config] --> B[Preprocess]
+    B --> C{Initialize <br/>or Load <br/>model?}
+    C -->|Initialize| D[Initialize <br/>new model]
+    D --> E[Train model]
+    C -->|Load pretrained| F[Load <br/>pretrained <br/>model]
+    E --> G[Model <br/>inference]
     F --> G
-    G --> H[Performance evaluation]
-    H --> I[Biomedical reproduction]
+    G --> H[Performance <br/>evaluation]
+    H --> I[Biomedical <br/>reproduction]
 ```
 
 
