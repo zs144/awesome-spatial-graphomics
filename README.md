@@ -4,8 +4,8 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-green)
 ![GitHub stars](https://img.shields.io/github/stars/zs144/omics-base-env?style=social)
 
-> [!IMPORTANT] 🚧 Project Status
-This repository is in **early development** — currently focused on paper collection, task categorization, and reproducibility setup. Benchmark notebooks and leaderboards are coming soon!
+> [!IMPORTANT]
+> This repository is in **early development** 🚧 — currently focused on paper collection, task categorization, and reproducibility setup. Benchmark notebooks and leaderboards are coming soon!
 
 A curated, structured, and reproducible hub for **graph learning in spatial transcriptomics and related omics modalities**.
 Built on [`omics-base`](https://github.com/zs144/omics-base-env) — designed to accelerate reproducibility and benchmarking across spatial omics studies.
